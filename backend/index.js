@@ -1,3 +1,5 @@
+console.log("index1");
+
 const express = require("express")
 const cors = require("cors")
 const mongoose = require("mongoose")
@@ -6,7 +8,9 @@ const dotenv = require("dotenv")
 const app = express()
 const Routes = require("./routes/route.js")
 
+console.log("index2");
 const PORT = process.env.PORT || 10000
+console.log("index3");
 
 dotenv.config();
 
