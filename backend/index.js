@@ -15,9 +15,9 @@ dotenv.config();
 
 app.use(express.json({ limit: '10mb' }))
 app.use(cors())
-
+const MONGO_URL = "mongodb+srv://sikdarriton:gqWICTDo33KTxFjy@cluster-education-syste.ntqoz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster-Education-System"
 mongoose
-    .connect(process.env.MONGO_URL, {
+    .connect(MONGO_URL, {
         useNewUrlParser: true,
         useUnifiedTopology: true
     })
