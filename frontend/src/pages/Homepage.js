@@ -14,18 +14,19 @@ const Homepage = () => {
                 </Grid>
                 <Grid item xs={12} md={6}>
                     <StyledPaper elevation={3}>
-                        <StyledTitle>
-                            Welcome to
-                            <br />
-                            School Management
-                            <br />
-                            System
+                        
+                        <StyledTitle noWrap>
+                            My Education System
                         </StyledTitle>
-                        <StyledText>
-                            Streamline school management, class organization, and add students and faculty.
-                            Seamlessly track attendance, assess performance, and provide feedback.
-                            Access records, view marks, and communicate effortlessly.
-                        </StyledText>
+
+                        {/*
+                                                
+                            <StyledText>
+                                Streamline school management, class organization, and add students and faculty.
+                                Seamlessly track attendance, assess performance, and provide feedback.
+                                Access records, view marks, and communicate effortlessly.
+                            </StyledText>
+                        */}
                         <StyledBox>
                             <StyledLink to="/choose">
                                 <LightPurpleButton variant="contained" fullWidth>
